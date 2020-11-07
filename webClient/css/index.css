@@ -1,0 +1,23 @@
+body{
+    background-image:url('123.png');
+}
+div{
+    background-color: blueviolet;
+    color: brown;
+    text-indent:50px; 
+    font-size: 50px;
+}
+h1{
+    font-size: 50px;
+    color: chartreuse;
+    font-style: oblique;
+    text-align: center;
+    text-transform: capitalize;
+}
+a{
+    font-size: 40px;
+    /* text-decoration: none; */
+    text-decoration: line-through;
+    /* text-decoration: underline; */
+}
+
