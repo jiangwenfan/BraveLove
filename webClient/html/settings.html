@@ -1,0 +1,75 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人信息设置</title>
+	<link href="./../css/settings.css"  rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div>
+		<div>
+			<form action="wechat.php" method="post">
+				微信设置:
+				<p>
+					上架微信:
+					<input type="file" name="wechatCode">
+				</p>
+				<!--
+				<p>
+					下架微信:
+					<input type="">
+				</p>
+				-->
+				<p>
+					对方每天下载微信的次数:
+					<select name="downloadWechatCount">
+						<option value="">4/天</option>
+						<option value="">8/天</option>
+						<option value="">15/天</option>
+						<option value="">25/天</option>
+						<option value="">不限次数</option>
+					</select>
+				</p>
+				<p> <input type="reset" value="重填"></p>
+				<p> <input type="button" value="确定"></p>
+			</form>
+		</div>
+		<!-- 新消息通知 -->
+		<div>
+			<form action=".php" method="post">
+				黑名单
+				<input type="text" name="" placeholder="输入用户ID">
+				<input type="button" value="确定">
+			</form>
+		</div>
+	</div>
+	<div>
+		<div>
+			<form action="" method="post">
+				设置密码
+				<p>
+					当前密码: <input type="password" name="currentPassword">
+				</p>
+				<p>
+					新密码: <input type="password" name="newPassword"></input>
+				</p>
+				<p>
+					确认新密码: <input type="password" name="confirmNewPassword">
+				</p>
+				<p>
+					<input type="button" value="确定">
+				</p>
+			</form>
+		</div>
+		<!-- 隐私设置 -->
+			<div></div>
+		更换手机号
+		退出登录
+		注销账号
+	</div>
+	<div>
+		清除缓存
+		检查更新
+		关于我们
+	</div>
+</body>
+</html>
