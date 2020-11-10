@@ -1,23 +1,8 @@
-body{
-    background-image:url('123.png');
+span{
+	font-size:32px;
 }
-div{
-    background-color: blueviolet;
-    color: brown;
-    text-indent:50px; 
-    font-size: 50px;
+#indexHead{
+	width:100%;
+	height:65px;
+	background-color:#2F4F4F;	
 }
-h1{
-    font-size: 50px;
-    color: chartreuse;
-    font-style: oblique;
-    text-align: center;
-    text-transform: capitalize;
-}
-a{
-    font-size: 40px;
-    /* text-decoration: none; */
-    text-decoration: line-through;
-    /* text-decoration: underline; */
-}
-

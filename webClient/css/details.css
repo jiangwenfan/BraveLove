@@ -4,6 +4,7 @@ body{
 	background-image:url(./../resources/SolidColor.jpg);
 	text-align:center;
 }
-p{
-	font-size:17px;
+
+p,input,select{
+	font-size:23px;
 }

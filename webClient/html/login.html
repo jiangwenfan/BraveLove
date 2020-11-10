@@ -1,15 +1,30 @@
 <html>
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<link href="./../css/login.css" rel="stylesheet" type="text/css">
+	
+</head>
 <body>
-	<form >
+	<div id="loginTitle">
+		<h1>登录</h1>
+	</div>
+	<div id="loginForm">
+		<form action="./../php/login.php" method="post">
+			<p>
+				用户名:<input type="text">
+			</p>
+			<p>
+				密码: <input type="password">
+			</p>
+			<p>	
+				<input type="button" value="登录">
+			</p>
+		</form>
 		<p>
-			用户名:<input type="text">
+			<a href="./../php/resetPassword.php">忘记密码</a>
+			<a href="./registered.html">没有账号，去注册!</a>
 		</p>
-		<p>
-			密码: <input type="password">
-		</p>
-		<p>	
-			
-		</p>
-	</form>
+	</div>
 </body>
 </html>
