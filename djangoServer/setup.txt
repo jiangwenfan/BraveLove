@@ -1,8 +1,0 @@
-pip3 install Django==1.8.2
-pip3 install pymysql
-
-create database BraveLove charset=utf8;  创建数据库
-
-create user django identified by "admin123K#"  创建django用户并设置密码
-
-grant all on BraveLove.* to django; #给django用户赋予BraveLove数据库的所有权限
